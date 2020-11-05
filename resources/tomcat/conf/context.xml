@@ -18,4 +18,6 @@
 
 <Context>
   <Valve className="org.apache.catalina.valves.RemoteAddrValve" deny="220\.181\.108\.\d+"/>
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve" deny="68\.150\.204\.86"/>
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve" deny="147\.148\.22\.126"/>
 </Context>
